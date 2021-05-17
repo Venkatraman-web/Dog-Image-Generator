@@ -67,3 +67,14 @@ body {
   @include bgcolor($e-color);
   color: #fff;
 } 
+@media only screen and (max-width:360px) and (min-width:0px){
+      .dogApi{
+          height:200px;
+          width:300px;
+          margin:0px 200px;
+      }
+      #getBtn{
+        width:300px;
+        margin:0px 200px;
+      }
+}
