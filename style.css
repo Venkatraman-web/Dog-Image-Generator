@@ -87,6 +87,11 @@ body {
 }
 
 @media only screen and (max-width: 360px) and (min-width: 0px) {
+  body {
+    background: -webkit-gradient(linear, left top, right top, from(#e9e8e8), color-stop(#e2e1e1), to(pink));
+    background: linear-gradient(to right, #e9e8e8, #e2e1e1, pink);
+    background-size: 1000px;
+  }
   .dogApi {
     height: 200px;
     width: 300px;
