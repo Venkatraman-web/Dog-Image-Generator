@@ -15,7 +15,8 @@ body {
           justify-content: center;
 }
 
-*::before, *::after {
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -25,7 +26,7 @@ body {
   bottom: -50px;
   height: 50px;
   font-size: 20px;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   width: 505px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +71,7 @@ body {
 }
 
 #heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   text-align: center;
 }
@@ -83,5 +84,17 @@ body {
 ::selection {
   background-color: #9e9;
   color: #fff;
+}
+
+@media only screen and (max-width: 360px) and (min-width: 0px) {
+  .dogApi {
+    height: 200px;
+    width: 300px;
+    margin: 0px 200px;
+  }
+  #getBtn {
+    width: 300px;
+    margin: 0px 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
