@@ -94,11 +94,11 @@ body {
   }
   .dogApi {
     height: 200px;
-    width: 350px;
+    width: 300px;
     margin: 0px 200px;
   }
   #getBtn {
-    width: 350px;
+    width: 300px;
     margin: 0px 200px;
   }
 }
